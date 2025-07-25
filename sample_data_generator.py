@@ -4,7 +4,7 @@ import os
 DATA_FOLDER = "data"
 INPUT_CSV = os.path.join(DATA_FOLDER, "customers.csv")
 
-def generate_sample_csv():
+def write_sample_csv():
     """
     Creates a sample customer CSV file with 10 fields.
     """
